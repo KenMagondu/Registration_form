@@ -1,0 +1,59 @@
+/* css variables  */
+:root{
+    --primary-color: #007bff;
+    --white-color: #fff;
+}
+
+
+body {
+    background-image: url("../style/background_image.jpeg");
+    background-repeat: no-repeat ;
+    height: 100vh;
+}
+
+.container{
+    /* background-color: turquoise; */
+    height: 100%;
+}
+
+.card{
+    width: 400px;
+    height: 350px;
+    background-color: rgba(0,0,0,0.1)
+}
+
+.card-header > h3{
+
+    color: var(--white-color);
+}
+
+.input-group > span{
+   background-color: var(--primary-color);
+   border: 0;
+   color : var(--white-color)
+}
+
+input:focus{
+    outline: 0 0 0 0 !important ;
+    box-shadow: 0 0 0 0 !important;
+
+}
+
+.signup_btn{
+    color:var(--primary-color) ; 
+    background-color: var(--white-color);
+}
+
+.signup_btn:hover{
+    color: #008000;
+    background-color: var(--white-color);
+}
+
+.signup > a {
+    color: var(--primary-color);
+}
+
+
+.signin_card{
+    height: 300px;
+}
